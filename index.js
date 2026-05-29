@@ -6,8 +6,8 @@ const OPT = {
     "siteName" : "lwsのblog",//博客名称
     "siteDescription":"lwsのblog",//博客描述
     "keyWords":"cloudflare,KV,workers,blog",//关键字
-    "cacheZoneId":"cc868e8edce4027ad4a735741111111",//清理缓存用 cf区域 ID
-    "cacheToken":"LNxRWH-MPMIGnp8qhyT8FUsjDRN6tdOnmaaaaaaa",//清理缓存用 cf API token
+    "cacheZoneId":"7b56790c6ed08c291850e8ea182b2341",//清理缓存用 cf区域 ID
+    "cacheToken":"cfut_U5CUKvoaHghaeBZfFwphWkTyVt9tiVk6s7DyFxML6d881cee",//清理缓存用 cf API token
 	
     "pageSize" : 5,//每页文章数
     "recentlySize" : 6,//最近文章数
