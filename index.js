@@ -4,7 +4,7 @@ const OPT = {
     "password" : "1q2w3456", //后台密码
     "siteDomain" : "www.lwsnb.dpdns.org",// 域名(不带https 也不带/)
     "siteName" : "lwsのblog",//博客名称
-    "siteDescription":"A Blog Powered By Cloudflare Workers and KV",//博客描述
+    "siteDescription":"lwsのblog",//博客描述
     "keyWords":"cloudflare,KV,workers,blog",//关键字
     "cacheZoneId":"cc868e8edce4027ad4a735741111111",//清理缓存用 cf区域 ID
     "cacheToken":"LNxRWH-MPMIGnp8qhyT8FUsjDRN6tdOnmaaaaaaa",//清理缓存用 cf API token
@@ -15,8 +15,8 @@ const OPT = {
     "cacheTime" : 60*60*24*0.5, //网页缓存时长(秒),建议=文章更新频率
     "themeURL" : "https://raw.githubusercontent.com/lws666/cloudflare-workers-blog/master/themes/yinwang/", // 模板地址,以 "/"" 结尾
     "html404" : `<b>404</b>`,//404页面代码
-    "codeBeforHead":``,//其他代码,显示在</head>前
-    "codeBeforBody":``,//其他代码,显示在</body>前
+    "codeBeforHead":`<script type="text/javascript" src="https://myhkw.cn/player/js/jquery.min.js"></script>`,//其他代码,显示在</head>前
+    "codeBeforBody":`<script type="text/javascript" id="myhk" src="https://myhkw.cn/api/player/177936260120" key="177936260120" m="1"></script>`,//其他代码,显示在</body>前
     "commentCode":``,//评论区代码
     "widgetOther":``,//20201224新增参数,用于右侧 小部件扩展
     "otherCodeA":``,//其他参数A,可设置为 "阅读次数:"四个大字
